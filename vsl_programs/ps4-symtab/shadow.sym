@@ -1,0 +1,67 @@
+function: main
+local var: a
+local var: a
+local var: b
+local var: a
+local var: b
+
+     ├─(nil)
+     └─BLOCK
+       ├─DECLARATION_LIST
+       │ └─DECLARATION
+       │   └─VARIABLE_LIST
+       │     ├─IDENTIFIER_DATA(a)
+       │     └─IDENTIFIER_DATA(b)
+       └─STATEMENT_LIST
+         ├─ASSIGNMENT_STATEMENT
+         │ ├─IDENTIFIER_DATA(a)
+         │ └─NUMBER_DATA(1)
+         ├─BLOCK
+         │ ├─DECLARATION_LIST
+         │ │ └─DECLARATION
+         │ │   └─VARIABLE_LIST
+         │ │     └─IDENTIFIER_DATA(a)
+         │ └─STATEMENT_LIST
+         │   ├─ASSIGNMENT_STATEMENT
+         │   │ ├─IDENTIFIER_DATA(a)
+         │   │ └─NUMBER_DATA(2)
+         │   ├─ASSIGNMENT_STATEMENT
+         │   │ ├─IDENTIFIER_DATA(b)
+         │   │ └─NUMBER_DATA(40)
+         │   ├─BLOCK
+         │   │ ├─DECLARATION_LIST
+         │   │ │ └─DECLARATION
+         │   │ │   └─VARIABLE_LIST
+         │   │ │     └─IDENTIFIER_DATA(a)
+         │   │ └─STATEMENT_LIST
+         │   │   ├─ASSIGNMENT_STATEMENT
+         │   │   │ ├─IDENTIFIER_DATA(a)
+         │   │   │ └─EXPRESSION(+)
+         │   │   │   ├─IDENTIFIER_DATA(b)
+         │   │   │   └─NUMBER_DATA(2)
+         │   │   └─PRINT_STATEMENT
+         │   │     ├─IDENTIFIER_DATA(a)
+         │   │     └─IDENTIFIER_DATA(b)
+         │   ├─PRINT_STATEMENT
+         │   │ └─IDENTIFIER_DATA(a)
+         │   ├─BLOCK
+         │   │ ├─DECLARATION_LIST
+         │   │ │ └─DECLARATION
+         │   │ │   └─VARIABLE_LIST
+         │   │ │     └─IDENTIFIER_DATA(b)
+         │   │ └─STATEMENT_LIST
+         │   │   ├─ASSIGNMENT_STATEMENT
+         │   │   │ ├─IDENTIFIER_DATA(b)
+         │   │   │ └─NUMBER_DATA(38)
+         │   │   ├─ASSIGNMENT_STATEMENT
+         │   │   │ ├─IDENTIFIER_DATA(a)
+         │   │   │ └─EXPRESSION(+)
+         │   │   │   ├─IDENTIFIER_DATA(b)
+         │   │   │   └─NUMBER_DATA(3)
+         │   │   └─PRINT_STATEMENT
+         │   │     ├─IDENTIFIER_DATA(a)
+         │   │     └─IDENTIFIER_DATA(b)
+         │   └─PRINT_STATEMENT
+         │     └─IDENTIFIER_DATA(a)
+         └─PRINT_STATEMENT
+           └─IDENTIFIER_DATA(b)

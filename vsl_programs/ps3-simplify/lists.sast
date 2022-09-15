@@ -1,0 +1,72 @@
+─PROGRAM
+ └─GLOBAL_LIST
+   ├─FUNCTION
+   │ ├─IDENTIFIER_DATA(my_func)
+   │ ├─VARIABLE_LIST
+   │ │ ├─IDENTIFIER_DATA(a)
+   │ │ ├─IDENTIFIER_DATA(b)
+   │ │ ├─IDENTIFIER_DATA(c)
+   │ │ ├─IDENTIFIER_DATA(d)
+   │ │ ├─IDENTIFIER_DATA(e)
+   │ │ ├─IDENTIFIER_DATA(f)
+   │ │ ├─IDENTIFIER_DATA(g)
+   │ │ └─IDENTIFIER_DATA(h)
+   │ └─BLOCK
+   │   ├─DECLARATION_LIST
+   │   │ └─DECLARATION
+   │   │   └─VARIABLE_LIST
+   │   │     ├─IDENTIFIER_DATA(i)
+   │   │     ├─IDENTIFIER_DATA(j)
+   │   │     ├─IDENTIFIER_DATA(k)
+   │   │     ├─IDENTIFIER_DATA(l)
+   │   │     └─IDENTIFIER_DATA(m)
+   │   └─STATEMENT_LIST
+   │     ├─ASSIGNMENT_STATEMENT
+   │     │ ├─IDENTIFIER_DATA(i)
+   │     │ └─EXPRESSION(+)
+   │     │   ├─EXPRESSION(+)
+   │     │   │ ├─IDENTIFIER_DATA(a)
+   │     │   │ └─IDENTIFIER_DATA(b)
+   │     │   └─IDENTIFIER_DATA(d)
+   │     └─IF_STATEMENT
+   │       ├─RELATION
+   │       │ ├─IDENTIFIER_DATA(i)
+   │       │ └─IDENTIFIER_DATA(f)
+   │       └─BLOCK
+   │         └─STATEMENT_LIST
+   │           └─PRINT_STATEMENT
+   │             └─STRING_DATA("hmmm")
+   └─FUNCTION
+     ├─IDENTIFIER_DATA(main)
+     ├─(nil)
+     └─BLOCK
+       ├─DECLARATION_LIST
+       │ └─DECLARATION
+       │   └─VARIABLE_LIST
+       │     ├─IDENTIFIER_DATA(n)
+       │     ├─IDENTIFIER_DATA(o)
+       │     ├─IDENTIFIER_DATA(p)
+       │     ├─IDENTIFIER_DATA(q)
+       │     ├─IDENTIFIER_DATA(r)
+       │     ├─IDENTIFIER_DATA(s)
+       │     ├─IDENTIFIER_DATA(t)
+       │     ├─IDENTIFIER_DATA(u)
+       │     ├─IDENTIFIER_DATA(v)
+       │     └─IDENTIFIER_DATA(w)
+       └─STATEMENT_LIST
+         ├─ASSIGNMENT_STATEMENT
+         │ ├─IDENTIFIER_DATA(n)
+         │ └─NUMBER_DATA(5)
+         └─ADD_STATEMENT
+           ├─IDENTIFIER_DATA(n)
+           └─EXPRESSION((null))
+             ├─IDENTIFIER_DATA(my_func)
+             └─EXPRESSION_LIST
+               ├─NUMBER_DATA(1)
+               ├─NUMBER_DATA(2)
+               ├─NUMBER_DATA(3)
+               ├─NUMBER_DATA(5)
+               ├─NUMBER_DATA(8)
+               ├─NUMBER_DATA(13)
+               ├─NUMBER_DATA(21)
+               └─NUMBER_DATA(34)

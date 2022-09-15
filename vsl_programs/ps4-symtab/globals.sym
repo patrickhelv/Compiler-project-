@@ -1,0 +1,33 @@
+function: main
+local var: a
+function: my_func
+local var: a
+parameter: param1
+parameter: param0
+global var: global_var1
+global var: global_var0
+FIER_DATA(global_var1)
+   ├─FUNCTION
+   │ ├─IDENTIFIER_DATA(my_func)
+   │ ├─VARIABLE_LIST
+   │ │ ├─IDENTIFIER_DATA(param0)
+   │ │ └─IDENTIFIER_DATA(param1)
+   │ └─BLOCK
+   │   ├─DECLARATION_LIST
+   │   │ └─DECLARATION
+   │   │   └─VARIABLE_LIST
+   │   │     └─IDENTIFIER_DATA(a)
+   │   └─STATEMENT_LIST
+   │     └─RETURN_STATEMENT
+   │       └─NUMBER_DATA(0)
+   └─FUNCTION
+     ├─IDENTIFIER_DATA(main)
+     ├─(nil)
+     └─BLOCK
+       ├─DECLARATION_LIST
+       │ └─DECLARATION
+       │   └─VARIABLE_LIST
+       │     └─IDENTIFIER_DATA(a)
+       └─STATEMENT_LIST
+         └─PRINT_STATEMENT
+           └─STRING_DATA("a string")
