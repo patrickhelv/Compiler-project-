@@ -29,7 +29,7 @@ cd vsl_programs
 make
 ```
 
-To compile the vsl programs
+To compile the vsl programs will create an assembly file and a binary file
 
 ```properties
 make compile
@@ -39,6 +39,15 @@ To delete
 
 ```properties
 make clean
+```
+
+Run the resulting assembly files in each folder ps2-parser to ps6-codegen2
+
+For example:
+
+```properties
+cd ps5-codegen1
+./function_call.bin
 ```
 
 
